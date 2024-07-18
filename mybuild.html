@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="v3.css">
-    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="scss/v3.css">
+    <script src="scripts.js"></script>
     <title>Build Organizer</title>
 </head>
 <body>
@@ -41,7 +41,7 @@
                 <nav>
                     <ul>
                         <li><a href="#" class="text-primary"></a></li>
-                        <li><a href="#">Introduction</a></li>
+                        <li class="introduction-btn">Introduction</li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Installation</a></li>
                     </ul>
@@ -55,27 +55,21 @@
                     </ul>
                 </nav>
             </div>
-            <div class="card">
-                <h2>Introduction</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut ex aliquid eaque tempore voluptas maiores eligendi sapiente adipisci, reiciendis consectetur architecto. Debitis impedit praesentium veniam vero cumque similique fugit iusto?</p>
-                <div class="alert alert-success">
-                    <i class="fas fa-info"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, odit.
+            <div class="introduction">
+                <div class="card">
+                    <h2>Introduction</h2>
+                    <p>Check out our useful guides to help you with modding your vehicle.
+                    These guides can help you get your modding journey jumpstarted with helpful knowledge about everything there is to know about modding your vehicle.</p>
+                    <h3>Th</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eaque dicta repellat labore laboriosam necessitatibus molestias neque minus sequi cumque!</p>
+                    <a href="#" class="btn btn-primary">Install CLI</a>
+                    <h3>Have a question that isn't answered in our guides?</h3>
+                    <p>Contact us with the information below and we will be sure to update our guides!</p>
+                    <ul>
+                        <li>MODTech@gmail.com</li>
+                        <li>636-373-6097</li>
+                    </ul>
                 </div>
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eaque dicta repellat labore laboriosam necessitatibus molestias neque minus sequi cumque!</p>
-                <a href="#" class="btn btn-primary">Install CLI</a>
-                <h3>Requirements</h3>
-                <ul>
-                    <li>Windows 10, Mac OSX, Linux</li>
-                    <li>Node.js v12 or higher</li>
-                </ul>
-                <h3>Install</h3>
-                <p>Mac (Homebrew)</p>
-                <pre><code>$ brew install loruki-cli</code></pre>
-                <p>NPM</p>
-                <pre><code>$ npm install loruki-cli</code></pre>
-                <p>Yarn</p>
-                <pre><code>$ yarn install loruki-cli</code></pre>
             </div>
         </div>
     </section>
